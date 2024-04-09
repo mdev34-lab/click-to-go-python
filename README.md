@@ -8,7 +8,7 @@ Click To Go is a Python application designed to streamline the process of settin
 - **Customizable Options**: Choose to include a tests folder, use `.rst` instead of `.md` for documentation, and automatically add the MIT license template.
 - **User Interface**: A simple and intuitive UI to input project details and generate scaffolding with a single click.
 
-## Installation
+## Usage
 
 To use Click To Go, download one of the portable executables available in the Releases page or build yourself from source via the following Nuitka command (windows-only):
 ```bash
