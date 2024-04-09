@@ -76,7 +76,7 @@ class Ui_ClickToGo_MainWidget():
         self.Input_ModuleName.setGeometry(QRect(200, 40, 171, 20))
         self.Input_CreateBtn = QPushButton(ClickToGo_MainWidget)
         self.Input_CreateBtn.setObjectName(u"Input_CreateBtn")
-        self.Input_CreateBtn.setGeometry(QRect(10, 370, 379, 31))
+        self.Input_CreateBtn.setGeometry(QRect(10, 370, 379, 41))
         self.Input_CreateBtn.clicked.connect(self.create_scaffolding)
         self.ProjectFolderLabel = QLabel(ClickToGo_MainWidget)
         self.ProjectFolderLabel.setObjectName(u"ProjectFolderLabel")

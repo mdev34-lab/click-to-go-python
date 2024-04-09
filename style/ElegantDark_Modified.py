@@ -154,7 +154,6 @@ QTabBar::tab {
 	border-bottom-color: rgb(101,101,101);
 }
 QTabBar::tab:selected, QTabBar::tab:last:selected, QTabBar::tab:hover {
-  	background-color:rgb(101,101,101);
   	margin-left: 0px;
   	margin-right: 1px;
 }
@@ -163,7 +162,6 @@ QTabBar::tab:!selected {
 		margin-right: 1px;
 }
 QCheckBox {
-	color:rgb(223,219,210);
 	padding: 2px;
 }
 QCheckBox:hover {
@@ -175,14 +173,14 @@ QCheckBox:hover {
 	padding-top: 1px;
 	border-width:1px;
 	border-color: rgb(87, 97, 106);
-	background-color:qlineargradient(spread:pad, x1:0.5, y1:0.7, x2:0.5, y2:0.3, stop:0 rgba(87, 97, 106, 150), stop:1 rgba(93, 103, 113, 150));
+	background-color:qlineargradient(spread:pad, x1:0.5, y1:0.7, x2:0.5, y2:0.3, stop:0 rgba(66, 133, 244, 150), stop:1 rgba(66, 153, 244, 150));
 }
 QCheckBox::indicator:checked {
 	border-radius:4px;
 	border-style:solid;
 	border-width:1px;
 	border-color: rgb(180,180,180);
-  	background-color:qlineargradient(spread:pad, x1:0.5, y1:0.7, x2:0.5, y2:0.3, stop:0 rgba(87, 97, 106, 255), stop:1 rgba(93, 103, 113, 255));
+  	background-color:qlineargradient(spread:pad, x1:0.5, y1:0.7, x2:0.5, y2:0.3, stop:0 rgba(66, 111, 186, 255), stop:1 rgba(66, 129, 197, 255));
 }
 QCheckBox::indicator:unchecked {
 	border-radius:4px;
